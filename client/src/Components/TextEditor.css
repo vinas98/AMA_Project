@@ -1,0 +1,24 @@
+.textEditorContainer{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.ql-editor{
+    min-height: 250px !important;
+    max-height: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+.ql-toolbar {
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: none;
+}
+.ql-container {
+    min-height: 10em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: #fefcfc;
+    font-size: 16px;
+}

@@ -1,0 +1,121 @@
+.likeContainer{
+    border-radius: 3px;
+    width: auto;
+    background-color: #d7f0f4;
+    padding: 3px 20px 7px 15px;
+    margin-right: 0px !important;
+}
+.dislikeContainer{
+    margin-left: 0px !important;
+    border-radius: 3px;
+    background-color: #d7f0f4;
+    padding: 5px 20px 5px 15px;
+    margin-left: 0px !important;
+}
+ul{
+    display: inline-flex;
+}
+.likeCount{
+    padding: 3px 15px;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+.dislikeCount{
+    padding: 3px 15px;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+.voteAndAuthorContainer{
+    margin-top: 25px;
+}
+.userContainer{
+    border-radius: 3px;
+    width: auto;
+    padding: 3px 20px 7px 15px;
+    margin-right: 0px !important;
+}
+.userName{
+    padding: 3px 15px;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+.userContainer ul{
+    float: right;
+}
+
+
+/* .voteSectionInAnswer img{
+    width:70%;
+    height: 70%;
+    padding: 1% 0px 0px 1%;
+}
+.voteSectionInAnswer{
+    height: 48%;
+    border-radius: 40px;
+    border: 1px solid gray;
+    margin-top: 10%;
+    padding: 0px;
+}
+.voteCountInAnswer{
+    font-size: 16px;
+    margin-top: 10%;
+    text-align: center;
+}
+.borderRight{
+    border-right: 1px solid gray;
+    margin: 0px;
+    padding: 0px;
+}
+.borderLeft{
+    border-left: 1px solid gray;
+    margin: 0px;
+} */
+/* .voteSectionInAnswer{
+    height: 42px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 0px 15px;
+    background-color: rgb(29,87,96);
+    margin: 5%;
+}
+.voteSectionInAnswer img{
+    display: inline;
+    float: left;
+    height: 42px;
+    width: 42px;
+    padding: 6px 5px;
+}
+.voteCountInAnswer{
+    font-size: 18px;
+    display: inline;
+    float: left;
+    padding: 7px 15px;
+    text-align: center;
+    color: white;
+}
+.borderRight{
+    border-right: 1px solid gray;
+}
+.borderLeft{
+    border-left: 1px solid gray;
+} */
+.profileIconInAnswer{
+    float: right;
+    height: 50%;
+    width: 17%;
+    margin-top: 15%;
+    border-radius: 50%;
+    border: 1px solid #d5d9db;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.authorNameInAnswer{
+    float: left;
+    margin-top: 25px;
+    margin-left: 0px;
+    padding-left: 0px;
+}

@@ -1,0 +1,31 @@
+.tagText{
+    text-align: left;
+    padding: 5px 15px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.tag{
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+    border: 1px solid #d5d9db;
+    color: #4D4D4D;
+    overflow: auto;
+    margin-top: 15px;
+    font-family: sofia-pro, sans-serif;
+    
+}
+.tagTitle{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #d5d9db;
+    border-radius: 10px 10px 0px 0px;
+    padding: 4%;
+    color: #525960;
+    background-color:  #e1ecf4;
+    margin-bottom: 4%;
+    position: sticky;
+    top: 0;
+    z-index: 997;
+}

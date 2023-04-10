@@ -1,0 +1,72 @@
+.feedbackContainer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: sofia-pro, sans-serif;
+    background-color: rgba(232,238,239,1);
+}
+.feedbackRow{
+    width: 80%;
+    padding: 40px 5%;
+    margin-left: 10%;
+}
+.leftInFeedback{
+    padding: 2%;
+}
+.titleRow h2{
+    float: left;
+    padding: 15px 2% 30px 0px;
+    font-size:24px;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+.titleRow img{
+    float: right;
+}
+.titleRow{
+    margin-bottom: 40px;
+}
+.textRow{
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.textRow p{
+    padding-left: 0px;
+    text-align: center;
+    color: #4D4D4D !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.emojiRow{
+    padding-left: 30% ;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #d5d9db;
+}
+.emojiRow img{
+    text-align: center;
+    width: 12%;
+    height: 100%;
+    padding: 0px 20px;
+}
+.feedbackCategory{
+    border: 1px solid #d5d9db;
+    border-radius: 3px;
+    width: auto;
+    margin: 20px;
+    padding: 10px 20px;
+    color: #4D4D4D;
+}
+.feedbackCategory :hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.categoryRow{
+    width: 100%;
+    padding-left: 20%;
+}
+.categoryRow p{
+    margin-top: 10px;
+    padding-left: 15%;
+    color: #4D4D4D !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}

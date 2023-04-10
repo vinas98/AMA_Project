@@ -1,0 +1,24 @@
+.user{
+    background-color: white;
+    border-radius: 10px;
+    height: 170px;
+    width: 205px;
+    border: 1px solid #d5d9db;
+    color: #4D4D4D;
+    overflow: auto;
+    margin-top: 15px;
+    font-family: sofia-pro, sans-serif;
+    padding: 10px; 
+}
+.userNameInUser{
+    color: #0074cc;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+}
+.userBadge{
+    color: #0074cc;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}

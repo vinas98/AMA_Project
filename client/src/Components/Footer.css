@@ -1,0 +1,17 @@
+.footerColor{
+    background-color:#5e605d;
+    padding: 40px 20px;
+    
+}
+.leftFooter{
+    text-align: left;
+}
+.leftFooter ul{
+    list-style: none !important;
+}
+.rightFooter{
+    text-align: right;
+}
+.footerColor p{
+    color: white;
+}

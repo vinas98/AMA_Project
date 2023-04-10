@@ -1,0 +1,28 @@
+.searchText{
+    padding: 10px;
+}
+.searchText p{
+    font-size:  18px !important;
+    color: #4D4D4D;
+    font-weight: 550;
+}
+.searchText h2{
+    padding-left: 30px !important;
+}
+.searchQuestionsContainer{
+    width: 100%;
+    height: auto;
+    font-family: sofia-pro, sans-serif;
+    background-color: rgba(232,238,239,1);
+}
+.searchQuestionsBox{
+    padding-top: 20px;
+}
+ul{
+    display: inline flex;
+    padding: 0px;
+}
+li{
+    display: block;
+    padding: 0px;
+}

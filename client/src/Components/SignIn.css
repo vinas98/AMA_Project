@@ -1,0 +1,191 @@
+.signInContainer{
+    width: 100%;
+    position: fixed;
+    background: #ddf4fe;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.signInBox{
+    background-color: #fff;
+    border-radius: 3.3rem;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 74vh;
+    max-height: 74vh;
+    margin-top: 13vh;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
+    overflow: auto;
+    padding: 5vh 6vh;
+}
+.signInLeft{
+    position: relative;
+    height: 63vh;
+    border-radius: 2.2rem;
+    background-color: #9f92f6;
+    float: left;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+.signInLeft img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 2.2rem;
+}
+.signinRight{
+    position: absolute;
+    height: 56vh;
+    width: 40%;
+    left: 55%;
+    top: 12vh;
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+.compayLogoInSignin{
+    max-width: 200px;
+    margin-left: 110px;
+}
+.compayLogoInSignin img{
+    width:90%;
+    height:20% !important;
+    object-fit: fill;
+}
+.signinWelcomeText{
+    padding-top: 20px;
+}
+.signinWelcomeText h2{
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 27px !important;
+    margin: 0 auto;
+    padding: 0;
+}
+.inActiveText{
+    color: #bfbfbf;
+    font-size: 13px;
+    padding-left: 60px;
+}
+.inActiveText span{
+    color: black;
+    font-weight: 500;
+}
+
+.signinWelcomeText h6 {
+    color: #bfbfbf;
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 0.85rem;
+    padding-right: 5px;
+    display: inline;
+  }
+  
+  .toggle {
+    color: #151111;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .toggle:hover {
+    color: #8371fd;
+  }
+/* .signinFormContainer input{
+    border: none;
+    width: 150px;
+    height: 20px !important;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-decoration: none;
+}
+input[type=text]:focus {
+    height: 50px !important;
+    text-decoration: none;
+} */
+
+.signinFormContainer{
+    margin-top: 4rem;
+}
+.signupFormContainer{
+    margin-top: 1rem;
+}
+.signinButton{
+  display: inline-block;
+  width: 60%;
+  height: 43px;
+  background-color: #151111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  margin: 0rem 0rem 0.2rem 5.5rem;
+  transition: 0.3s;
+}
+.forgotPassword{
+    text-align: center;
+    margin: 0px 0px 2rem 10rem;
+}
+.signinButton:hover {
+    background-color: #9f92f6;
+}
+
+.signupFormContainer .input-wrap {
+    position: relative;
+    height: 37px;
+    margin-bottom: 1rem;
+}
+
+
+.signinFormContainer .input-wrap {
+    position: relative;
+    height: 37px;
+    margin-bottom: 1rem;
+}
+
+.input-wrap .input-field {
+position: absolute;
+width: 70%;
+height: 100%;
+margin-left: 4rem;
+background: none;
+border: none;
+outline: none;
+border-bottom: 1px solid #bbb;
+padding: 0;
+font-size: 0.95rem;
+color: #151111;
+-webkit-transition: 0.4s ease-in-out;
+transition: 0.4s ease-in-out;
+}
+  
+.input-wrap label {
+position: absolute;
+left: 0;
+top: 50%;
+margin-left: 4.2rem;
+transform: translateY(-50%);
+font-size: 0.95rem;
+color: #bbb;
+pointer-events: none;
+-webkit-transition: 0.4s ease-in-out;
+transition: 0.4s ease-in-out;
+}
+
+.input-wrap .input-field:focus {
+border-bottom-color: #151111;
+}
+
+.input-wrap .input-field:focus + label {
+font-size: 0.85rem;
+top: -2px;
+}
+

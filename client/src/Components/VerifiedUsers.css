@@ -1,0 +1,22 @@
+.tagInTrending{
+    padding: 10px 5%;
+}
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+.tagInTrending h2{
+    float: left;
+    padding: 20px 2% 30px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+.tagInTrending img{
+    float: right;
+}
+.searchInTag{
+    margin: 0px;
+    padding: 0px;
+}

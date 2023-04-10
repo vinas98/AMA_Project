@@ -1,0 +1,19 @@
+.queWithAns{
+    color: #456e90;
+    padding: 2% 1%;
+    font-size: 14px;
+    color: #3b4044;
+}
+.pointIcon{
+    width: 14px;
+    height: auto;
+}
+p{
+    color: #4D4D4D;
+    font-size: 17px !important;
+    line-height: 17px !important;
+    margin-left: 10px !important;
+}
+h2{
+    color: #3f66ba;
+}

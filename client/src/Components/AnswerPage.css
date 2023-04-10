@@ -1,0 +1,30 @@
+.answerContainer{
+    background-color: rgba(232,238,239,1);
+}
+.questionInAnswerRow{
+    border-radius: 10px 10px 0px 0px;
+    height: auto;
+    padding: 1%;
+    border-bottom: 1px solid #d5d9db;
+    color: #4D4D4D;
+    margin:0px 0px 2px 0px;
+}
+.answerRow{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    /* height: auto;
+    border: 1px solid #d5d9db; */
+    color: #4D4D4D;
+}
+.answersCotainer{
+    height: auto;
+    padding: 10px 40px;
+    color: #4D4D4D;
+    margin: 20px 0px 0px 0px;
+}
+h2{
+    font-weight: bold !important;
+    font-size: 22px !important;
+    padding: 10px !important;
+}
