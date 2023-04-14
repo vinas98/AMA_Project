@@ -61,7 +61,10 @@ const SignIn = () => {
                                         <div className='signinWelcomeText'>
                                             <h2>Welcome Back To AMA</h2>
                                             <h6>Not registered yet?</h6>
-                                            <a href='/signup' className='toggle'>Sign Up</a>
+                                            <a href='/signup' className='toggle'>Sign Up</a><br></br>
+                                            
+                                            <h6>Forget your Password?</h6>
+                                            <a href='/forget' className='toggle'>Forget Password</a>
                                         </div>
                                     </Col>
                                 </Row>
